@@ -90,4 +90,8 @@ for tut in range(2):
 
 
 wn = trtl.Screen()
+
+
+
+wn = trtl.Screen()
 wn.mainloop()
