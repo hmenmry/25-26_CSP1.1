@@ -3,7 +3,7 @@ import turtle as trtl
 
 jim = trtl.Turtle()
 
-
+jim.speed(100)
 # rectangle body
 for tut in range(2):
     jim.forward(300)
@@ -80,11 +80,28 @@ for tut in range(2):
     jim.right(90)
     jim.forward(150)
     jim.right(90)
+jim.penup()
 
 
+jim.teleport(0,0)
+jim.left(90)
+jim.forward(400)
+jim.pendown()
+jim.color("black")
+jim.circle(40)
+jim.penup()
+jim.teleport(300,0)
 
-
-
+jim.forward(400)
+jim.pendown()
+jim.color("black")
+jim.circle(40)
+jim.penup()
+jim.teleport(90,0)
+jim.forward(200)
+jim.setheading(270)
+jim.pendown()
+jim.circle (100,180)
 
 
 
